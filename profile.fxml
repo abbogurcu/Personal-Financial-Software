@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="297.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DBConnection">
+   <children>
+      <Button fx:id="dataCekButton" layoutX="39.0" layoutY="48.0" mnemonicParsing="false" onAction="#dataCek" prefHeight="91.0" prefWidth="125.0" text="DATA ÇEK" />
+      <Button fx:id="yeniParaGirisiButton" layoutX="182.0" layoutY="50.0" mnemonicParsing="false" onAction="#yeniParaGirisi" prefHeight="91.0" prefWidth="125.0" text="Yeni Para Girişi" />
+      <Button fx:id="paraDetayButton" layoutX="323.0" layoutY="49.0" mnemonicParsing="false" onAction="#paraDetay" prefHeight="91.0" prefWidth="125.0" text="Para Detay" />
+      <Button fx:id="kurCeviriciButton" layoutX="40.0" layoutY="159.0" mnemonicParsing="false" onAction="#kurCevirici" prefHeight="91.0" prefWidth="125.0" text="Kur Çevirici" />
+      <Button fx:id="kurGecmisiBilgisiButton" layoutX="182.0" layoutY="161.0" mnemonicParsing="false" onAction="#kurGecmisiBilgisi" prefHeight="91.0" prefWidth="125.0" text="Kur Geçmişi Bilgisi" />
+      <Button fx:id="limitorButton" layoutX="324.0" layoutY="157.0" mnemonicParsing="false" onAction="#limitor" prefHeight="91.0" prefWidth="125.0" text="Limitör" />
+   </children>
+</Pane>

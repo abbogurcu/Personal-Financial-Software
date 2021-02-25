@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="143.0" prefWidth="207.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DBConnection">
+   <children>
+      <Button fx:id="button" layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onAction="#login" prefHeight="84.0" prefWidth="82.0" text="Login" />
+      <Button fx:id="button2" layoutX="109.0" layoutY="35.0" mnemonicParsing="false" onAction="#register" prefHeight="84.0" prefWidth="82.0" text="Register" />
+   </children>
+</Pane>

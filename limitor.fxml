@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="705.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.limitorController">
+   <children>
+      <ComboBox fx:id="comBoBoxLimit" layoutX="168.0" layoutY="26.0" prefHeight="25.0" prefWidth="265.0" />
+      <Label layoutX="24.0" layoutY="30.0" text="Sahip Olunan Kurlar" />
+      <TextField fx:id="alimLimit" layoutX="168.0" layoutY="74.0" />
+      <TextField fx:id="satimLimit" layoutX="168.0" layoutY="115.0" />
+      <Label layoutX="24.0" layoutY="78.0" text="Kur Alım" />
+      <Label layoutX="21.0" layoutY="119.0" text="Kur Satım" />
+      <Button layoutX="168.0" layoutY="166.0" mnemonicParsing="false" onAction="#limitKoy" text="Limit Koy" />
+      <Button fx:id="geriButton" layoutX="21.0" layoutY="328.0" mnemonicParsing="false" onAction="#geri" text="Geri" />
+      <Button layoutX="268.0" layoutY="166.0" mnemonicParsing="false" onAction="#limitKaldir" text="Limit Kaldır" />
+      <Label layoutX="329.0" layoutY="78.0" text="Belirlediğiniz değerden aşağı kur değeri gelince bilgilendirileceksiniz !" />
+      <Label layoutX="329.0" layoutY="119.0" text="Belirlediğiniz değerden yukarı kur değeri gelince bilgilendirileceksiniz !" />
+   </children>
+</Pane>

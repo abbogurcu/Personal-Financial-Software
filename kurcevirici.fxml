@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.kurceviriciController">
+   <children>
+      <Label layoutX="35.0" layoutY="43.0" text="Para Cinsi" />
+      <Label layoutX="35.0" layoutY="74.0" text="Para Miktarı" />
+      <ComboBox fx:id="kurCeviriciComboBox" layoutX="117.0" layoutY="39.0" prefHeight="25.0" prefWidth="247.0" />
+      <TextField fx:id="kurCeviriciMiktari" layoutX="118.0" layoutY="70.0" />
+      <Label fx:id="kurCeviriciLabel" layoutX="35.0" layoutY="118.0" />
+      <Button fx:id="kurCeviriciButton" layoutX="293.0" layoutY="70.0" mnemonicParsing="false" onAction="#kurCevirici" text="Çevir" />
+      <Button fx:id="geriButton" layoutX="24.0" layoutY="14.0" mnemonicParsing="false" onAction="#geri" text="Geri" />
+   </children>
+</Pane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.paradetayController">
+   <children>
+      <TableView fx:id="paraDetayTable" prefHeight="200.0" prefWidth="686.0">
+        <columns>
+          <TableColumn fx:id="currencyName" prefWidth="205.0" text="Currency Name" />
+          <TableColumn fx:id="currencyAmount" prefWidth="167.0" text="Currency Amount" />
+            <TableColumn fx:id="toBuyingTL" prefWidth="96.0" text="toBuyingTL" />
+            <TableColumn fx:id="toSellingTL" prefWidth="94.0" text="toSellingTL" />
+            <TableColumn fx:id="crossrate" prefWidth="121.0" text="Crossrate" />
+        </columns>
+      </TableView>
+      <Button fx:id="geriButton" layoutX="23.0" layoutY="208.0" mnemonicParsing="false" onAction="#geri" text="Geri" />
+      <PieChart fx:id="pieChart" layoutX="93.0" layoutY="240.0" />
+   </children>
+</Pane>
